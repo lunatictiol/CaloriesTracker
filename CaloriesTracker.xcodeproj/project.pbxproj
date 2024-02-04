@@ -11,6 +11,7 @@
 		188ACC9C2B6F9C8600D33424 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ACC9B2B6F9C8600D33424 /* ContentView.swift */; };
 		188ACC9E2B6F9C8800D33424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188ACC9D2B6F9C8800D33424 /* Assets.xcassets */; };
 		188ACCA12B6F9C8800D33424 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188ACCA02B6F9C8800D33424 /* Preview Assets.xcassets */; };
+		188ACCA82B6F9D3400D33424 /* AddCaloriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ACCA72B6F9D3400D33424 /* AddCaloriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		188ACC9B2B6F9C8600D33424 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		188ACC9D2B6F9C8800D33424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		188ACCA02B6F9C8800D33424 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		188ACCA72B6F9D3400D33424 /* AddCaloriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCaloriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				188ACC992B6F9C8600D33424 /* CaloriesTrackerApp.swift */,
 				188ACC9B2B6F9C8600D33424 /* ContentView.swift */,
+				188ACCA72B6F9D3400D33424 /* AddCaloriesView.swift */,
 				188ACC9D2B6F9C8800D33424 /* Assets.xcassets */,
 				188ACC9F2B6F9C8800D33424 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188ACCA82B6F9D3400D33424 /* AddCaloriesView.swift in Sources */,
 				188ACC9C2B6F9C8600D33424 /* ContentView.swift in Sources */,
 				188ACC9A2B6F9C8600D33424 /* CaloriesTrackerApp.swift in Sources */,
 			);
