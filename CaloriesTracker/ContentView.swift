@@ -11,7 +11,7 @@ struct ContentView: View {
     @ObservedObject var foodlist=FoodList()
     
     var body: some View {
-         NavigationView{
+        NavigationView{
             VStack {
                 ForEach(foodlist.foodlist){ food in
                     HStack{
@@ -28,9 +28,9 @@ struct ContentView: View {
                         
                     }
                     .padding()
-                    Spacer()
+                    
                 }
-               
+                Spacer()
             }
             .padding()
             .navigationTitle("Calories Tracker")
@@ -42,6 +42,8 @@ struct ContentView: View {
             .sheet(isPresented: $foodlist.showAddCaloriesView, content: {
                 AddCaloriesView(foodlist: foodlist)
             })
+           
+            
         }
     }
 }
